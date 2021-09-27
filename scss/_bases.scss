@@ -9,3 +9,18 @@ $yellow: #e6b331;
 }
 
 $rock: "Rockwell", serif;
+
+//  -------------------- Classes Globales ------------------ //
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

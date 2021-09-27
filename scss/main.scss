@@ -1,2 +1,14 @@
 @import "bases";
 @import "media";
+
+header {
+  background-image: linear-gradient(56deg, #ea919144, rgba(61, 32, 133, 0.178)),
+    url(/img/photo.jpeg);
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+
+  a {
+    color: white;
+  }
+}
