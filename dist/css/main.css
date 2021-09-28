@@ -23,9 +23,133 @@ header {
   height: 550px;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
-header a {
+header nav a {
   color: white;
+}
+
+header p {
+  font-family: "Rockwell", serif;
+}
+
+header .button {
+  padding: 12px 25px;
+  border-radius: 9px;
+}
+
+header .button-header {
+  color: #e6b331;
+  background-color: white;
+  -webkit-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+}
+
+header .button-header:hover {
+  color: #e6b331;
+  opacity: 0.4;
+}
+
+header::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  bottom: -10%;
+  left: calc(50% - 50px);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#gouter {
+  margin-top: 250px;
+}
+
+#gouter h3 {
+  color: #4b4975;
+}
+
+#gouter h2 {
+  font-family: "Rockwell", serif;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  margin-left: 70px;
+  position: relative;
+  padding: 0 15px;
+  color: #4b4975;
+}
+
+@media (max-width: 768px) {
+  #gouter h2 {
+    font-size: 35px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#gouter h2::before {
+  display: block;
+  z-index: -1;
+  content: "";
+  color: #ea9191;
+  font-size: large;
+  background-image: url(/img/grain.png);
+  background-color: #e6b331e3;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -100px;
+  margin-left: -70px;
+  width: 200px;
+  height: 200px;
+  padding: 7px;
+}
+
+@media (max-width: 768px) {
+  #gouter h2::before {
+    margin: 0 auto;
+    height: 250px;
+    width: 100%;
+  }
+}
+
+#gouter .txt,
+#gouter .line {
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+#gouter h3 {
+  font-family: "Rockwell", serif;
+}
+
+#gouter p {
+  margin-left: 75px;
+}
+
+#products {
+  font-family: "Rockwell", serif;
+}
+
+#products h3 {
+  color: #ea9191;
+}
+
+#products h4 {
+  color: #4b4975;
+  margin-top: 15px;
 }
 /*# sourceMappingURL=main.css.map */
