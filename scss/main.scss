@@ -123,3 +123,35 @@ header {
     margin-top: 15px;
   }
 }
+
+// -------- FOOOTER -----------//
+
+footer {
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(25deg, rgb(15, 15, 49), $pink, $yellow);
+  color: white;
+
+  .contact {
+    font-family: $rock;
+  }
+
+  form {
+    input {
+      opacity: 0.5;
+      width: 500px;
+      height: 45px;
+      border-radius: 25px;
+      border: none;
+      margin: 25px 0;
+
+      &::placeholder {
+        padding-left: 25px;
+      }
+    }
+
+    textarea {
+      width: 86px;
+    }
+  }
+}

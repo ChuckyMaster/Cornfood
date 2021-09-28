@@ -152,4 +152,44 @@ header::after {
   color: #4b4975;
   margin-top: 15px;
 }
+
+footer {
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(25deg, #0f0f31, #ea9191, #e6b331);
+  color: white;
+}
+
+footer .contact {
+  font-family: "Rockwell", serif;
+}
+
+footer form input {
+  opacity: 0.5;
+  width: 500px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  margin: 25px 0;
+}
+
+footer form input::-webkit-input-placeholder {
+  padding-left: 25px;
+}
+
+footer form input:-ms-input-placeholder {
+  padding-left: 25px;
+}
+
+footer form input::-ms-input-placeholder {
+  padding-left: 25px;
+}
+
+footer form input::placeholder {
+  padding-left: 25px;
+}
+
+footer form textarea {
+  width: 86px;
+}
 /*# sourceMappingURL=main.css.map */
